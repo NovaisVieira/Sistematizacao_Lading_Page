@@ -103,7 +103,7 @@
     }
 
 
-    @media screen and (max-width: 1500px) {
+    @media screen and (max-width: 1700px) {
         #dishes {
             flex-wrap: wrap;
             justify-content: center;
