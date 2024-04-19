@@ -24,4 +24,4 @@ O objetivo do projeto é abordar o seguinte desafio e garantir que ele seja reso
 
 Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços."
 
-# Logo do Projeto 
+# Logo do Projeto C:\Users\jugup\OneDrive\Área de Trabalho\LANDING PAGE\src\img\logo.mp4
