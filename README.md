@@ -15,7 +15,7 @@ As tecnologias utilizadas no projetos são:
 
 Como solução em execução on-line, foi utilizado GitHub Pages.
 
-<link https://novaisvieira.github.io/Sistematizacao_Lading_Page/ >
+https://novaisvieira.github.io/Sistematizacao_Lading_Page/  
 
 # Descrição
 O objetivo do projeto é abordar o seguinte desafio e garantir que ele seja resolvido de maneira eficaz:
@@ -26,3 +26,4 @@ O objetivo do projeto é abordar o seguinte desafio e garantir que ele seja reso
 Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços."
 
 # Logo do Projeto
+http://127.0.0.1:5500/src/img/logo.mp4
