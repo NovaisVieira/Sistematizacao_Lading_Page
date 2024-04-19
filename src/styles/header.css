@@ -152,4 +152,16 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin: 3px;
     }
 }
+@media screen and (max-width: 600px) {
+    #nav-h {
+        display:block; 
+    }
 
+    .btn-PS {
+        
+        display: block; 
+        margin-top: 15px; 
+        font-size: 12px; 
+        border: none;
+    }
+}
