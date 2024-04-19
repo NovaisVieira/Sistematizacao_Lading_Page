@@ -1,0 +1,71 @@
+#sobre{
+    min-height: calc(100vh - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 48px;
+    
+}
+
+#quem_somos .section-title{
+    font-size: 3.5rem;    
+}
+
+#chef {
+    width: 400px;
+    height: auto;
+}
+
+.missão span{
+    font-size: 1.3rem;
+    color:rgb(0, 2, 3);
+    font-weight: bold;
+}
+
+#quem_somos {
+    width: 60%;
+}
+
+#missão {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.missão {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fdffff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.missão p {
+    text-indent: 25px;
+    font-size: large;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1170px) {
+    #missao {
+        flex-direction: column;
+    }
+
+    #quem_somos .section-title{
+        text-align: center;
+    }
+
+    #chef {
+        display: none;
+    }
+
+    #quem_somos {
+        width:100% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

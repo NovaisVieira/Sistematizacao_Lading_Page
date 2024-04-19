@@ -1,0 +1,142 @@
+#especialidade {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content:center ;
+    min-height: 10vh;
+    margin-top: 10px;
+}
+#dishes {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    gap: 100px;
+    margin-top: 32px;
+
+    }
+
+    #especialidade .section-title{
+        font-size: 4.2rem;
+    }
+.dish {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 250px;
+    padding: 20px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0 , 0.1);
+    position: relative;
+    overflow: hidden;
+    }
+ 
+    .dish-heart {
+        position: absolute;
+        background-color: rgb(155, 232, 246);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.563rem;
+        color: rgb(4, 4, 4);
+        width: 50px;
+        height: 50px;
+        right: -10px;
+        top: -10px;
+        border-radius: 0px 37.5px 0px 42.5px;
+    }
+
+    .dish-description {
+        color: #7d0a0a;
+        text-align: center;
+    }
+    
+    .dish-rate i {
+        color: coral ;
+    }
+    
+    .dish-price {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .dropdown-menu{
+        position: inline;
+        box-shadow:0 0 3px black;
+        display: none;
+    }
+
+    .dropdown-menu a{
+        display: block;
+        text-decoration: none;
+        color: black;  
+    }
+
+    .botão a{
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+
+    .dropdown:hover .dropdown-menu{
+       
+        display: block;
+    }
+    
+    .dropdown button{
+        background-color: #72b3f0;
+        height: 30px;
+        border: none;
+        padding: 4px;
+        width: 100%;
+        color: rgb(16, 15, 14);
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 6px;
+        box-shadow: 0 0 3px;
+    }
+    .dropdown {
+        list-style: none;
+    }
+
+
+    @media screen and (max-width: 1500px) {
+        #dishes {
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .dish {
+            width: (50%-12px);
+        }
+    }
+        @media screen and (max-width: 600px) {
+            .dish {
+                width: 100%;
+            }
+         
+            #especialidade .section-subtitle {
+                text-align: center;
+                font-size: 1rem;
+                
+            }
+
+            #especialidade .section-title {
+                font-size: 2.8rem;
+            }
+            
+            
+           
+        
+    }
+    img {
+        width:320px;
+    }
+
+
+
+
+    

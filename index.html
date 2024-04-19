@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Health Care Centro Médico</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <video src="./src/img/logo.mp4" autoplay muted loop ></video>
+            </div>
+    
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Nossos Serviços</a>
+                </li>
+            </ul>
+    
+            <button class="btn-default">
+                LOGIN 
+            </button>
+    
+            <button id="mobile_btn">
+                <i class="fa fa-bars"></i> 
+            </button>
+        </nav>
+    
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Nossos Serviços</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                LOGIN  
+            </button>
+        </div>
+    
+        <ul id="barra"> 
+            <div id="nav-">
+                <ul id="nav-h">
+                    <li> 
+                        <button class="btn-PS"><a href="Pronto socorro">Pronto socorro </a></button>
+                    </li>
+                    <li> 
+                        <button class="btn-PS"><a href="Emergência">Emergência</a></button>
+                    </li>
+                    <li>
+                        <button class="btn-PS"> <a href="Resultados"> Resultados de Exames</a></button>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+    </header>
+    
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Cuidado presente, protegendo o que é mais valioso para 
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                  Agende on-line ou pelo telefone:
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Agende on-line
+                    </a>
+                    <a href="tel=55 33333 000" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                         
+                        </button>
+                        (55) 3333-0000
+                    
+                    </a>
+                </div>
+                
+                <div class="social-media-buttons" >
+                    <a href="(colocar aqui link para whatsapp)">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    
+                    <a href="(colocar aqui link para instagram)">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="(colocar aqui link para facebook)">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <dir id="banner">
+                <img src="src/img/consulta 2.png" alt="">
+            
+            </dir>
+        </section>
+
+        <section id="especialidade">
+            <h3 class="section-title"> Especialidades</h3>
+            <h5 class="section-subtitle">Contamos com rol de especialidades para melhor atender</h5>
+
+              
+        <div id="dishes">
+               
+            <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <img src="src/img/Geral.png" class="dish-image" alt="">
+
+                    <li class="dropdown">
+                        <a href=""><button class="botão"> Atendimento </a> </button></a>
+                    
+                        
+                        
+                    <div class="dropdown-menu">
+                        
+                            <a href="">Dr. Padilha(07:00 ás 12:00) </a>
+                            <a href="">Dr. Rodrigo(12:00 ás 16:00)</a>
+                            <a href="">Dr. Carlos(16:00 ás 22:00)</a>
+                        
+                        </div>
+                    </li>
+                    <h3></h3>
+
+                </div>
+            
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    
+                    <img src="src/img/cardiovascular.png" class="dish-image" alt="">
+                        
+                    <li class="dropdown">
+                        <a href=""><button class="botão"> Atendimento </a> </button></a>
+                    
+                        
+                        
+                    <div class="dropdown-menu">
+                        
+                            <a href="">Dr. Padilha(07:00 ás 12:00) </a>
+                            <a href="">Dr. Rodrigo(12:00 ás 16:00)</a>
+                            <a href="">Dr. Carlos(16:00 ás 22:00)</a>
+                        
+                        </div>
+                    </li>
+                    <h3></h3>
+                    
+                </div>
+            
+            
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <img src="src/img/oncologia.png" class="dish-image" alt="">
+                    
+                    <li class="dropdown">
+                        <a href=""><button class="botão"> Atendimento </a> </button></a>
+                    
+                        
+                        
+                    <div class="dropdown-menu">
+                        
+                            <a href="">Dr. Padilha(07:00 ás 12:00) </a>
+                            <a href="">Dr. Rodrigo(12:00 ás 16:00)</a>
+                            <a href="">Dr. Carlos(16:00 ás 22:00)</a>
+                        
+                        </div>
+                    </li>
+                    <h3></h3>
+
+                </div>
+            
+            
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <img src="src/img/trauma.png" class="dish-image" alt="">
+                    
+                    <li class="dropdown">
+                        <a href=""><button class="botão"> Atendimento </a> </button></a>
+                    
+                        
+                        
+                    <div class="dropdown-menu">
+                        
+                            <a href="">Dr. Padilha(07:00 ás 12:00) </a>
+                            <a href="">Dr. Rodrigo(12:00 ás 16:00)</a>
+                            <a href="">Dr. Carlos(16:00 ás 22:00)</a>
+                        
+                        </div>
+                    </li>
+                    <h3></h3>
+
+                </div>
+
+            
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <img src="src/img/Ginecologia.png" class="dish-image" alt="">
+
+                    <li class="dropdown">
+                        <a href=""><button class="botão"> Atendimento </a> </button></a>
+                    
+                        
+                        
+                    <div class="dropdown-menu">
+                        
+                            <a href="">Dr. Padilha(07:00 ás 12:00) </a>
+                            <a href="">Dr. Rodrigo(12:00 ás 16:00)</a>
+                            <a href="">Dr. Carlos(16:00 ás 22:00)</a>
+                        
+                        </div>
+                    </li>
+                    <h3></h3>
+
+                </div>
+            </div>
+        </section>
+
+        <section id ="sobre">
+            <img src="src/img/sobre nos.png" id="chef" alt="">
+            
+            <div id="quem_somos">
+                <h2 class="section-title">
+                    Quem somos 
+
+                </h2>
+                <div id="missão">
+                    <div class="missão">
+                      <p>
+                      No <span>Centro Clínico HEALTH Care</span>, somos mais do que uma instituição de saúde, somos uma família dedicada a cuidar da sua. Com uma equipe de profissionais altamente qualificados e um ambiente acolhedor, nosso compromisso é oferecer um atendimento humanizado e de excelência.  
+                      </p>
+                    </div>
+               
+                    <div class="missão">
+                    
+                <p>
+                <span>Nossa missão</span> é promover a saúde e o bem-estar de cada paciente que entra em nossas portas. Acreditamos que cada indivíduo merece atenção personalizada e tratamentos que atendam às suas necessidades únicas.
+                </p>
+                    </div>
+
+                    <div class="missão">
+                    
+                        <p>
+                        <span>Nosso time</span> é composto por médicos, enfermeiros, terapeutas e outros profissionais altamente qualificados, todos dedicados a fornecer o melhor atendimento possível. Trabalhamos em estreita colaboração com nossos pacientes para entender suas necessidades e desenvolver planos de tratamento personalizados que visam alcançar os melhores resultados de saúde.
+                        </p>
+                            </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer >
+        
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(222, 249, 249, 1)" offset="0%"></stop><stop stop-color="rgba(222, 249, 249, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,60L48,73.3C96,87,192,113,288,103.3C384,93,480,47,576,33.3C672,20,768,40,864,60C960,80,1056,100,1152,110C1248,120,1344,120,1440,113.3C1536,107,1632,93,1728,76.7C1824,60,1920,40,2016,46.7C2112,53,2208,87,2304,86.7C2400,87,2496,53,2592,43.3C2688,33,2784,47,2880,50C2976,53,3072,47,3168,60C3264,73,3360,107,3456,123.3C3552,140,3648,140,3744,123.3C3840,107,3936,73,4032,73.3C4128,73,4224,107,4320,120C4416,133,4512,127,4608,110C4704,93,4800,67,4896,60C4992,53,5088,67,5184,86.7C5280,107,5376,133,5472,140C5568,147,5664,133,5760,113.3C5856,93,5952,67,6048,70C6144,73,6240,107,6336,120C6432,133,6528,127,6624,120C6720,113,6816,107,6864,103.3L6912,100L6912,200L6864,200C6816,200,6720,200,6624,200C6528,200,6432,200,6336,200C6240,200,6144,200,6048,200C5952,200,5856,200,5760,200C5664,200,5568,200,5472,200C5376,200,5280,200,5184,200C5088,200,4992,200,4896,200C4800,200,4704,200,4608,200C4512,200,4416,200,4320,200C4224,200,4128,200,4032,200C3936,200,3840,200,3744,200C3648,200,3552,200,3456,200C3360,200,3264,200,3168,200C3072,200,2976,200,2880,200C2784,200,2688,200,2592,200C2496,200,2400,200,2304,200C2208,200,2112,200,2016,200C1920,200,1824,200,1728,200C1632,200,1536,200,1440,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"></path></svg>        
+        <div id="footer_items">
+            <span id="copyright">
+                <h5>Centro Clínico HEALTH Care – Todos os Direitos Reservados – Rt: Dr. Pacheco | CRM-XX: 00000 – Endereço: Área Especial 10 – Ceilândia, Brasília – DF, 7221066
+            </h5>
+                &copy 2024 Áquila Novais Vieira
+
+            </span>
+
+            <div class="social-media-buttons" >
+                <div class="map-box">
+                <a href="https://maps.app.goo.gl/3W7iAygtybaJfdsD9">
+                    <i class="fa-solid fa-location-dot"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"> </script>
+
+</body>
+</html>

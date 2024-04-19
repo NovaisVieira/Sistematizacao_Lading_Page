@@ -1,0 +1,169 @@
+header {
+    width: 100%;
+    padding: 0 0;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+#nav-h{
+background-color: #1c333c;
+margin-top: 0;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-PS {
+    background-color: #1c333c; 
+}
+.btn-PS button{
+    display: flex;
+}
+
+#nav-h li{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    display: inline;
+    text-indent: 100px;
+}
+
+#nav-h li a {
+    color: #f3f3f4;
+    padding: 10px ;
+    text-decoration: none;
+    display: inline-block;  
+    transition: all .6s;
+  
+}
+
+#nav-h li a:hover{
+    background-color:rgb(207, 26, 26);
+    font-size:  18px;
+    margin: 3px;
+}
+
+#logo video {
+    max-width: 70px;
+    top: 0px; 
+
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+} 
+
+.nav-item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+
+}
+.nav-item.active{
+    color: #1d1d1d;
+    border-bottom: 3px solid #107fae;
+}
+
+
+.nav-item a:hover {
+    color:rgb(2, 8, 21);
+    border-bottom: 3px solid #107fae;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    #nav_list,
+    #navbar .btn-default {
+         display: none; 
+     }
+ 
+     #mobile_btn,.btn-PS {
+         display: block;
+         border: none;
+         background-color: transparent;
+         font-size: 1.5rem;
+         cursor: pointer;       
+         }
+ 
+     #mobile_menu.active {
+         display:flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     #mobile_nav_list {
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+         margin: 12px 0px;
+         }
+ 
+     #mobile_nav_list .nav-item {
+         list-style: none;
+         text-align: center;
+ 
+     }
+     
+ }
+/* Estilos padrão */
+#nav-h {
+    background-color: #1c333c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-PS {
+    background-color: #1c333c; 
+}
+
+@media screen and (max-width: 1150px) {
+    #nav-h {
+        display: flex; /* Oculta a barra de navegação em dispositivos móveis */
+    }
+
+    .btn-PS {
+        /* Estilos para o botão em dispositivos móveis */
+        background-color: transparent; 
+        color: #f3f3f4; 
+        border: none; 
+        padding: 10px; 
+        font-size: 16px; 
+    }
+    #nav-h li a:hover{
+        background-color:rgb(207, 26, 26);
+        font-size:  18px;
+        margin: 3px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    /* Estilos adicionais para dispositivos com largura máxima de 768px */
+    #nav-h {
+        display:block; /* Oculta a barra de navegação em dispositivos móveis */
+    }
+
+    .btn-PS {
+        /* Estilos adicionais para o botão em dispositivos com largura máxima de 768px */
+        display: block; /* Exibe o botão */
+        margin-top: 15px; /* Adiciona espaçamento superior */
+        font-size: 12px; 
+        border: none;
+    }
+}
