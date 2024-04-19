@@ -7,6 +7,7 @@ Meu projeto é uma aplicação lading page web, ultilizando o VS.Code para progr
 Este é um resumo do que você encontrará aqui.
 
 # Techs
+
 As tecnologias utilizadas no projetos são:
 - HTML;
 - CSS;
@@ -24,4 +25,4 @@ O objetivo do projeto é abordar o seguinte desafio e garantir que ele seja reso
 
 Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços."
 
-# Logo do Projeto C:\Users\jugup\OneDrive\Área de Trabalho\LANDING PAGE\src\img\logo.mp4
+# Logo do Projeto
