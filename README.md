@@ -27,5 +27,6 @@ Projeto 01 - Uma landing page estática apresentando as principais informações
 
 ## Logo do Projeto
 Feito com auxilio do APP CANVA.
-http://127.0.0.1:5500/src/img/logo.mp4
+
+https://github.com/NovaisVieira/Sistematizacao_Lading_Page/assets/152810824/344ebffe-0c99-4ce1-8dfb-21b4698958e4
 
