@@ -122,7 +122,6 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      }
      
  }
-/* Estilos padrão */
 #nav-h {
     background-color: #1c333c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -134,11 +133,10 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 @media screen and (max-width: 1150px) {
     #nav-h {
-        display: flex; /* Oculta a barra de navegação em dispositivos móveis */
+        display: flex;
     }
 
     .btn-PS {
-        /* Estilos para o botão em dispositivos móveis */
         background-color: transparent; 
         color: #f3f3f4; 
         border: none; 
@@ -154,15 +152,14 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 @media screen and (max-width: 600px) {
-    /* Estilos adicionais para dispositivos com largura máxima de 768px */
     #nav-h {
-        display:block; /* Oculta a barra de navegação em dispositivos móveis */
+        display:block; 
     }
 
     .btn-PS {
-        /* Estilos adicionais para o botão em dispositivos com largura máxima de 768px */
-        display: block; /* Exibe o botão */
-        margin-top: 15px; /* Adiciona espaçamento superior */
+        
+        display: block; 
+        margin-top: 15px; 
         font-size: 12px; 
         border: none;
     }
