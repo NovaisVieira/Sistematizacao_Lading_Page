@@ -12,6 +12,7 @@ As tecnologias utilizadas no projetos são:
 - HTML;
 - CSS;
 - JAVA Script.
+- IDE : VS Code
 
 Como solução em execução on-line, foi utilizado GitHub Pages.
 
