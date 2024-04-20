@@ -15,7 +15,7 @@ As tecnologias utilizadas no projetos são:
 
 Como solução em execução on-line, foi utilizado GitHub Pages.
 
-https://novaisvieira.github.io/Sistematizacao_Lading_Page/  
+https://novaisvieira.github.io/Sistematizacao_Landing_Page/  
 
 ## Descrição
 O objetivo do projeto é abordar o seguinte desafio e garantir que ele seja resolvido de maneira eficaz:
