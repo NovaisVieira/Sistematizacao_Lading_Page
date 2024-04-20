@@ -30,3 +30,39 @@ Feito com auxilio do APP CANVA.
 
 https://github.com/NovaisVieira/Sistematizacao_Lading_Page/assets/152810824/344ebffe-0c99-4ce1-8dfb-21b4698958e4
 
+# Como Abrir a Aplicação
+Siga as etapas abaixo para abrir e executar a aplicação em seu navegador:
+
+## Pré-requisitos
+Antes de começar, certifique-se de ter um navegador da web instalado em seu computador.
+
+Passo 1: Clone o Repositório
+Clone este repositório em seu ambiente local usando o Git:
+
+bash
+Copy code
+git clone https://github.com/seu-nome-de-usuario/seu-repositorio.git
+Passo 2: Navegue até o Diretório do Projeto
+Navegue até o diretório do projeto em seu terminal:
+
+bash
+Copy code
+cd seu-repositorio
+Passo 3: Abra o Arquivo HTML
+Abra o arquivo index.html em seu navegador preferido. Você pode fazer isso clicando duas vezes no arquivo ou usando um dos seguintes comandos no terminal:
+
+Windows:
+sql
+
+start index.html
+macOS:
+arduino
+
+open index.html
+Linux:
+arduino
+
+xdg-open index.html
+
+Passo 4: Explore a Aplicação
+Após abrir o arquivo HTML, você poderá visualizar e interagir com a aplicação no navegador. 
