@@ -1,4 +1,4 @@
-# Sistematização LADING PAGE
+# Sistematização LANDING PAGE
 
 ## Introdução
 
